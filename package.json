@@ -1,0 +1,24 @@
+{
+  "name": "jest-angular-memory-leak-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --logHeapUsage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeleX/jest-angular-memory-leak-example.git"
+  },
+  "author": "FreeleX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreeleX/jest-angular-memory-leak-example/issues"
+  },
+  "homepage": "https://github.com/FreeleX/jest-angular-memory-leak-example#readme",
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "weak": "^1.0.1",
+    "zone.js": "^0.8.26"
+  }
+}
