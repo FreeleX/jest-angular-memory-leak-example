@@ -17,38 +17,37 @@ jsdom@11.11.0
 ```
 > jest --runInBand --logHeapUsage
 
- PASS  __tests__/test10.spec.js (48 MB heap size)
- PASS  __tests__/test19.spec.js (48 MB heap size)
- PASS  __tests__/test11.spec.js (50 MB heap size)
- PASS  __tests__/test14.spec.js (50 MB heap size)
- PASS  __tests__/test20.spec.js (51 MB heap size)
- PASS  __tests__/test25.spec.js (64 MB heap size)
- PASS  __tests__/test12.spec.js (64 MB heap size)
- PASS  __tests__/test16.spec.js (64 MB heap size)
- PASS  __tests__/test8.spec.js (65 MB heap size)
- PASS  __tests__/test13.spec.js (78 MB heap size)
- PASS  __tests__/test18.spec.js (78 MB heap size)
- PASS  __tests__/test15.spec.js (79 MB heap size)
- PASS  __tests__/test17.spec.js (79 MB heap size)
- PASS  __tests__/test1.spec.js (80 MB heap size)
- PASS  __tests__/test2.spec.js (93 MB heap size)
- PASS  __tests__/test4.spec.js (93 MB heap size)
- PASS  __tests__/test3.spec.js (93 MB heap size)
- PASS  __tests__/test7.spec.js (94 MB heap size)
- PASS  __tests__/test24.spec.js (107 MB heap size)
- PASS  __tests__/test6.spec.js (107 MB heap size)
- PASS  __tests__/test21.spec.js (107 MB heap size)
- PASS  __tests__/test23.spec.js (108 MB heap size)
- PASS  __tests__/test9.spec.js (120 MB heap size)
- PASS  __tests__/test5.spec.js (120 MB heap size)
- PASS  __tests__/test22.spec.js (120 MB heap size)
+ PASS  __tests__/test8.spec.js (44 MB heap size)
+ PASS  __tests__/test11.spec.js (47 MB heap size)
+ PASS  __tests__/test13.spec.js (50 MB heap size)
+ PASS  __tests__/test17.spec.js (52 MB heap size)
+ PASS  __tests__/test20.spec.js (55 MB heap size)
+ PASS  __tests__/test16.spec.js (58 MB heap size)
+ PASS  __tests__/test19.spec.js (62 MB heap size)
+ PASS  __tests__/test6.spec.js (65 MB heap size)
+ PASS  __tests__/test1.spec.js (68 MB heap size)
+ PASS  __tests__/test24.spec.js (72 MB heap size)
+ PASS  __tests__/test18.spec.js (75 MB heap size)
+ PASS  __tests__/test23.spec.js (78 MB heap size)
+ PASS  __tests__/test7.spec.js (81 MB heap size)
+ PASS  __tests__/test21.spec.js (84 MB heap size)
+ PASS  __tests__/test9.spec.js (88 MB heap size)
+ PASS  __tests__/test15.spec.js (91 MB heap size)
+ PASS  __tests__/test12.spec.js (94 MB heap size)
+ PASS  __tests__/test10.spec.js (98 MB heap size)
+ PASS  __tests__/test5.spec.js (101 MB heap size)
+ PASS  __tests__/test25.spec.js (104 MB heap size)
+ PASS  __tests__/test4.spec.js (107 MB heap size)
+ PASS  __tests__/test2.spec.js (111 MB heap size)
+ PASS  __tests__/test22.spec.js (114 MB heap size)
+ PASS  __tests__/test14.spec.js (117 MB heap size)
+ PASS  __tests__/test3.spec.js (120 MB heap size)
 
 Test Suites: 25 passed, 25 total
 Tests:       25 passed, 25 total
 Snapshots:   0 total
-Time:        2.198s
+Time:        4.07s
 Ran all test suites.
-
 ```
 
 As you can see there is steady heap usage increase
@@ -76,36 +75,36 @@ As you can see jest reports memory leaks
 ```
 > jest --runInBand --logHeapUsage
 
- PASS  __tests__/test10.spec.js (39 MB heap size)
- PASS  __tests__/test12.spec.js (47 MB heap size)
- PASS  __tests__/test14.spec.js (43 MB heap size)
- PASS  __tests__/test13.spec.js (51 MB heap size)
- PASS  __tests__/test11.spec.js (47 MB heap size)
- PASS  __tests__/test17.spec.js (54 MB heap size)
- PASS  __tests__/test16.spec.js (39 MB heap size)
- PASS  __tests__/test20.spec.js (47 MB heap size)
- PASS  __tests__/test19.spec.js (42 MB heap size)
- PASS  __tests__/test25.spec.js (49 MB heap size)
- PASS  __tests__/test5.spec.js (45 MB heap size)
- PASS  __tests__/test7.spec.js (53 MB heap size)
- PASS  __tests__/test21.spec.js (49 MB heap size)
- PASS  __tests__/test9.spec.js (56 MB heap size)
- PASS  __tests__/test22.spec.js (52 MB heap size)
- PASS  __tests__/test18.spec.js (59 MB heap size)
- PASS  __tests__/test4.spec.js (55 MB heap size)
- PASS  __tests__/test8.spec.js (63 MB heap size)
- PASS  __tests__/test2.spec.js (58 MB heap size)
- PASS  __tests__/test24.spec.js (66 MB heap size)
- PASS  __tests__/test6.spec.js (62 MB heap size)
- PASS  __tests__/test23.spec.js (69 MB heap size)
- PASS  __tests__/test1.spec.js (65 MB heap size)
- PASS  __tests__/test15.spec.js (39 MB heap size)
- PASS  __tests__/test3.spec.js (47 MB heap size)
+ PASS  __tests__/test8.spec.js (50 MB heap size)
+ PASS  __tests__/test1.spec.js (46 MB heap size)
+ PASS  __tests__/test19.spec.js (45 MB heap size)
+ PASS  __tests__/test17.spec.js (44 MB heap size)
+ PASS  __tests__/test20.spec.js (43 MB heap size)
+ PASS  __tests__/test13.spec.js (43 MB heap size)
+ PASS  __tests__/test11.spec.js (43 MB heap size)
+ PASS  __tests__/test22.spec.js (43 MB heap size)
+ PASS  __tests__/test18.spec.js (44 MB heap size)
+ PASS  __tests__/test6.spec.js (43 MB heap size)
+ PASS  __tests__/test2.spec.js (44 MB heap size)
+ PASS  __tests__/test25.spec.js (43 MB heap size)
+ PASS  __tests__/test16.spec.js (44 MB heap size)
+ PASS  __tests__/test9.spec.js (44 MB heap size)
+ PASS  __tests__/test7.spec.js (44 MB heap size)
+ PASS  __tests__/test21.spec.js (44 MB heap size)
+ PASS  __tests__/test4.spec.js (43 MB heap size)
+ PASS  __tests__/test24.spec.js (44 MB heap size)
+ PASS  __tests__/test14.spec.js (44 MB heap size)
+ PASS  __tests__/test10.spec.js (44 MB heap size)
+ PASS  __tests__/test3.spec.js (44 MB heap size)
+ PASS  __tests__/test23.spec.js (43 MB heap size)
+ PASS  __tests__/test5.spec.js (44 MB heap size)
+ PASS  __tests__/test15.spec.js (44 MB heap size)
+ PASS  __tests__/test12.spec.js (44 MB heap size)
 
 Test Suites: 25 passed, 25 total
 Tests:       25 passed, 25 total
 Snapshots:   0 total
-Time:        1.636s, estimated 2s
+Time:        2.922s
 Ran all test suites.
 ```
 
